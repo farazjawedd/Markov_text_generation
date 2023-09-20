@@ -87,6 +87,21 @@ Output # 4:
 ```
 ['she', 'was', 'not', 'in', 'the', 'world', '.']
 ```
+----------
+Input # 5:
+```
+sentence = ['my', 'name']
+n = 2
+corpus = corpus
+randomize = False
+
+```
+Output # 5:
+```
+['my', 'name', 'of', 'the', 'same', 'time', ',', 'and', 'the', 'same']
+```
+
+
 
 ## Stochastic Model 
 
@@ -142,7 +157,19 @@ Output # 4:
 ```
 ['she', 'was', 'not', 'in', 'my', 'banker', "'s", 'hands', ',', 'to']
 ```
+----------
+Input # 5:
+```
+sentence = ['my', 'name']
+n = 2
+corpus = corpus
+randomize = True
 
+```
+Output # 5:
+```
+['my', 'name', ',', 'i', 'remember', 'that', 'could', 'be', ',', 'by']
+```
 
 
 
